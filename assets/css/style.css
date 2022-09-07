@@ -107,6 +107,16 @@ img {
     padding-bottom: 5px;
 }
 
+/* Footer */
+
+.bg_footer {
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+#info {
+    margin-top: 10px;
+}
 
 /* Utilities */
 
@@ -116,6 +126,10 @@ img {
 
 .justify_center {
     justify-content: center;
+}
+
+.justify_center {
+    justify-content: flex-start;
 }
 
 .gap_10 {
@@ -156,6 +170,7 @@ img {
 
 .col-6 {
     width: calc(( 100% / 12) * 6);
+    padding-top: 30px;
 }
 
 .clearfix::after {
