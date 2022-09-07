@@ -26,6 +26,8 @@ img {
     --bo-redbadge: #FF0000;
     --bo-header: #FF6900;
     --bo-background: #FFFFFF;
+    --bo-text: #948E80;
+
 }
 
 /* Header */
@@ -65,6 +67,30 @@ img {
     padding-top: 10px;
 }
 
+.badge_red {
+    height: 20px;
+    width: 40px;
+    background-color: #FF0000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.badge_green {
+    height: 20px;
+    width: 80px;
+    background-color: #008000;
+    position: absolute;
+    bottom: 30px;
+    left: 45px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 
 /* Utilities */
 
@@ -86,6 +112,26 @@ img {
 
 .font_size {
     font-size: 12px;
+}
+
+.white_text {
+    color: #FFFFFF;
+}
+
+.grey_text {
+    color: #948E80;
+}
+
+.text_red {
+    color: #FF0000;
+}
+
+.text_line {
+    text-decoration: line-through;
+}
+
+.unlisted {
+    list-style: none;
 }
 
 .col-3 {
