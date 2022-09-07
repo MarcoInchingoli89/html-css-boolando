@@ -55,6 +55,36 @@ img {
     position: relative;
 }
 
+.levis_fit {
+    background-image: url("../img/1.webp");
+    background-size: cover;
+}
+
+.guess {
+    background-image: url("../img/2.webp");
+    background-size: cover;
+}
+
+.zucchero_filato {
+    background-image: url("../img/3.webp");
+    background-size: cover;
+}
+
+.levis {
+    background-image: url("../img/4.webp");
+    background-size: cover;
+}
+
+.maya {
+    background-image: url("../img/5.webp");
+    background-size: cover;
+}
+
+.esprit {
+    background-image: url("../img/6.webp");
+    background-size: cover;
+}
+
 .heart {
     height: 40px;
     width: 40px;
@@ -107,6 +137,40 @@ img {
     padding-bottom: 5px;
 }
 
+.heart:hover {
+    color: red;
+}
+
+:where(.levis_fit):hover {
+    background: url("../img/1b.webp") no-repeat;
+    background-size: cover;
+}
+
+:where(.guess):hover {
+    background: url("../img/2b.webp") no-repeat;
+    background-size: cover;
+}
+
+:where(.zucchero_filato):hover {
+    background: url("../img/3b.webp") no-repeat;
+    background-size: cover;
+}
+
+:where(.levis):hover {
+    background: url("../img/4b.webp") no-repeat;
+    background-size: cover;
+}
+
+:where(.maya):hover {
+    background: url("../img/5b.webp") no-repeat;
+    background-size: cover;
+}
+
+:where(.esprit):hover {
+    background: url("../img/6b.webp") no-repeat;
+    background-size: cover;
+}
+
 /* Footer */
 
 .bg_footer {
@@ -116,6 +180,10 @@ img {
 
 #info {
     margin-top: 10px;
+}
+
+#social {
+    padding-top: 10px;
 }
 
 /* Utilities */
@@ -128,8 +196,12 @@ img {
     justify-content: center;
 }
 
-.justify_center {
+.justify_start {
     justify-content: flex-start;
+}
+
+.justify_end {
+    justify-content: flex-end;
 }
 
 .gap_10 {
@@ -162,6 +234,18 @@ img {
 
 .unlisted {
     list-style: none;
+}
+
+.padding_top {
+    padding-top: 555px;
+}
+
+.padding_top_15 {
+    padding-top: 15px;
+}
+
+.padding_bottom_15 {
+    padding-top: 15px;
 }
 
 .col-3 {
