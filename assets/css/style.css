@@ -91,6 +91,22 @@ img {
     padding-bottom: 5px;
 }
 
+#second_row {
+    margin-top: 100px;
+}
+
+.badge_green_left {
+    height: 20px;
+    width: 80px;
+    background-color: #008000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 
 /* Utilities */
 
