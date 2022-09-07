@@ -17,17 +17,47 @@ img {
     margin: 0 auto;
 }
 
+/* Colors Palette */
+
+:root {
+    --bo-darker: #000000;
+    --bo-badge: #008000;
+    --bo-light: #EBEBEB;
+    --bo-redbadge: #FF0000;
+    --bo-header: #FF6900;
+    --bo-background: #FFFFFF;
+}
+
+/* Header */
+
+.bg_header {
+    background-color: #FF6900;
+}
+
+
 /* Utilities */
 
 .flex {
     display: flex;
 }
 
-.debug .col-3 {
+.justify_center {
+    justify-content: center;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.font_size {
+    font-size: 12px;
+}
+
+.col-3 {
     width: calc(( 100% / 12) * 3);
 }
 
-.debug .col-6 {
+.col-6 {
     width: calc(( 100% / 12) * 6);
 }
 
